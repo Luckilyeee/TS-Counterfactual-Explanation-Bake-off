@@ -1,0 +1,12 @@
+# Source-guided from:
+# - https://github.com/e-delaney/Instance-Based_CFE_TSC (no requirements file)
+# - imports used in NG/src (dba.py, cam.py, classifiers)
+numpy==1.23.5
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+matplotlib==3.9.2
+tensorflow==2.12.0
+tslearn==0.6.4
+pyts==0.13.0
+aeon==1.4.0

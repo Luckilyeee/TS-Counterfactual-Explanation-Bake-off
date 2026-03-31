@@ -1,0 +1,12 @@
+# Locked dependency set for MG
+# Source basis:
+# - https://github.com/Luckilyeee/motif_guided_cf (pip-requirements.txt)
+# - added aeon for this repository's RocketClassifier usage
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.12.0
+scikit-learn==1.5.2
+matplotlib==3.9.2
+pyts==0.13.0
+tslearn==0.6.3
+aeon==1.4.0
