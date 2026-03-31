@@ -1,0 +1,13 @@
+# Source-guided from:
+# - https://github.com/Luckilyeee/SG-CF (pip-requirements.txt)
+# - imports used by this repository's Wachter/TimeX/SG scripts
+numpy==1.23.5
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.13.1
+matplotlib==3.9.2
+tensorflow==2.12.0
+pyts==0.13.0
+tslearn==0.6.4
+sktime==0.24.0
+attrs==23.2.0
