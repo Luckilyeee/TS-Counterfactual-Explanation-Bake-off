@@ -1,0 +1,24 @@
+# Base scientific stack
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.10.0
+matplotlib==3.7.2
+scikit-learn==1.5.0
+
+# Time-series / distance utilities
+pyts==0.12.0
+tslearn==0.6.4
+fastdtw==0.3.4
+
+# Deep learning (PyTorch stack; install torch separately if needed)
+# Example (CUDA 11.8): conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+torch==2.4.1
+
+# Explainer / logging / utilities
+wandb==0.16.6
+shortuuid==1.0.13
+seaborn==0.13.2
+Pillow==10.4.0
+opencv-python==4.7.0.72
+shap==0.44.1
+lime==0.2.0.1

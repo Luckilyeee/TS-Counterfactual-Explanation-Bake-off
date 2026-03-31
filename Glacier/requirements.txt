@@ -1,0 +1,10 @@
+numpy==1.24.3
+pandas==2.0.3
+tensorflow==2.7.0
+scikit-learn==1.1.0
+matplotlib==3.4.2
+wildboar==1.1.0
+stumpy==1.9.2
+fastdtw==0.3.4
+tslearn==0.6.4
+scipy==1.10.0
