@@ -81,9 +81,30 @@ Original method sources:
 
 - Methods are implemented in semi-independent folders; environment setup is best managed per method.
 - **Dataset folder location**: place `UCRArchive_2018/` at the repository root (`./UCRArchive_2018`).
+- The datasets are sourced from the UCR Time Series Archive \[Dau et al., 2019\].
 - All benchmarked method loaders now auto-resolve this folder by walking upward from each script location to find `UCRArchive_2018`.
 - Optional override: set `UCR_DATA_ROOT` to an absolute dataset path (for example, `export UCR_DATA_ROOT=/data/UCRArchive_2018`).
 - Legacy absolute fallback `/UCRArchive_2018` is still supported for backward compatibility.
 - Several methods expect pretrained FCN/CAM weights (notably under `Wachter_TimeX_SG/` and `NG/src/cam.py`); see `RUN_GUIDE.md` for source and generation workflow details.
-- This README provides a practical execution map; for methodological details, taxonomy rationale, and full experimental analysis, refer to `counterfactual_ML_Journal.pdf`.
+- This README provides a practical execution map; for methodological details, taxonomy rationale, and full experimental analysis, refer to our paper. 
 - `RUN_GUIDE.md` contains extra operational details per method.
+
+
+## Acknowledgement
+
+We thank the maintainers of the UCR Time Series Archive for making the benchmark datasets publicly available.
+
+## Reference
+
+```bibtex
+@article{dau2019ucr,
+  title={The UCR time series archive},
+  author={Dau, Hoang Anh and Bagnall, Anthony and Kamgar, Kaveh and Yeh, Chin-Chia Michael and Zhu, Yan and Gharghabi, Shaghayegh and Ratanamahatana, Chotirat Ann and Keogh, Eamonn},
+  journal={IEEE/CAA Journal of Automatica Sinica},
+  volume={6},
+  number={6},
+  pages={1293--1305},
+  year={2019},
+  publisher={IEEE}
+}
+```
