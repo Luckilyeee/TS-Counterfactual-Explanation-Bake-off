@@ -1,6 +1,6 @@
 # Counterfactual Explanation Bake-off: A Review and Experimental Evaluation for Time Series Classification
 
-This repository accompanies the paper **“Counterfactual Explanation Bake-off: A Review and Experimental Evaluation for Time Series Classification”** that has been submitted to the Machine Learning Journal.
+This repository accompanies the paper **“Counterfactual Explanation Bake-off: A Review and Experimental Evaluation for Time Series Classification”**, which has been accepted for publication in the Machine Learning Journal.
 
 It provides a benchmark-oriented implementation for counterfactual explanations on univariate time-series classification, covering multiple method families under a unified experimental setting.
 
